@@ -8,46 +8,46 @@ platform is windows, visual studio 2008-2015
 3. open data_scrambler.sln by visual studio 2008.
 4. F5 or click Build->Build menu item.
 
-### Source code license is The GNU General Public License v3.0
+#### Source code license is The GNU General Public License v3.0
 
-#### If use the source code for commerial software but can not open source, you need to get the copyright permission.
-#### (email: simple_ai@outlook.com)
+##### If use the source code for commerial software but can not open source, you need to get the copyright permission.
+##### (email: simple_ai@outlook.com)
 
 ## Thanks:
 
-Third party open source code:
+#### Third party open source code:
 
-### XFolderDialog              Hans Dietrich hdietrich@gmail.com
+XFolderDialog              Hans Dietrich hdietrich@gmail.com
 
-### jsoncpp                    Baptiste Lepilleur (MIT License)
+jsoncpp                    Baptiste Lepilleur (MIT License)
 
-### cef                        The Chromium Embedded Framework Authors (BSD-style license)
+cef                        The Chromium Embedded Framework Authors (BSD-style license)
 
-### CrashRpt                   Copyright (c) 2003, Michael Carruth All rights reserved.
+CrashRpt                   Copyright (c) 2003, Michael Carruth All rights reserved.
 
-### sqlite                      
+sqlite                      
 
-### Wrapper for SQLite3!       Daniel C. Gindi (danielgindi (at) gmail dot com)
+Wrapper for SQLite3!       Daniel C. Gindi (danielgindi (at) gmail dot com)
 
-### libzip                     Copyright (C) 2004, 2005, 2010 Mark Adler
+libzip                     Copyright (C) 2004, 2005, 2010 Mark Adler
 
-### minizip                    Copyright (C) 1998-2010 Gilles Vollant (minizip)
+minizip                    Copyright (C) 1998-2010 Gilles Vollant (minizip)
 
-### libpng                     Copyright (c) 2004, 2006-2007 Glenn Randers-Pehrson
+libpng                     Copyright (c) 2004, 2006-2007 Glenn Randers-Pehrson
 
-### tinyxml                    copyright (c) 2000-2006 Lee Thomason (www.grinninglizard.com)
+tinyxml                    copyright (c) 2000-2006 Lee Thomason (www.grinninglizard.com)
 
-### wtl                        Copyright (C) Microsoft Corporation. All rights reserved.
+wtl                        Copyright (C) Microsoft Corporation. All rights reserved.
 
-### Protocol Buffers           Google's data interchange formatCopyright 2008 Google Inc. All rights reserved.
-###                            http://code.google.com/p/protobuf/ 
+Protocol Buffers           Google's data interchange formatCopyright 2008 Google Inc. All rights reserved.
+                           http://code.google.com/p/protobuf/ 
 
-### ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPing Zhang, Qun Liu 
-###                            NLP open source license v1.0
+ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPing Zhang, Qun Liu 
+                           NLP open source license v1.0
 
 ## Contact:
 
-###     WeiXin:      jianzhi_ai
+    `WeiXin:      jianzhi_ai`
     
     WeiXin:      AIChangeLife 
     
@@ -61,7 +61,7 @@ Third party open source code:
 	
 ## Third party LICENSE:
 
-### CrashRpt:
+#### CrashRpt:
 
 Copyright (c) 2003, Michael Carruth
 All rights reserved.
@@ -91,7 +91,7 @@ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-### minizip:
+#### minizip:
 
    Version 1.1, February 14h, 2010
    sample part of the MiniZip project - ( http://www.winimage.com/zLibDll/minizip.html )
