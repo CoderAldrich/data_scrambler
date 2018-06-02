@@ -1,0 +1,291 @@
+﻿<HTML>
+<HEAD>
+ <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <style type="text/css">
+        #DivProcessName {
+            width: 550px;
+            margin-left: 50px;
+        }
+        #DivProcessIcon {
+            height: 1px;
+            width: 550px;
+        }
+        #tdProcessIcon {
+            height:40px;
+            width: 80px
+        }
+         #tdObject {
+            height:100px;
+            width: 80px
+        }
+        #tdAction {
+            height:40px;
+            width: 80px
+        }
+        .clsProcess {
+           
+            color: Black;
+            text-align: center
+
+        }
+        .clsObject {
+           
+            color: Black;
+            text-align: left
+
+        }
+        .clsAction {
+          
+            color: Black;
+            text-align: left
+
+        }
+        
+        .clsResult {
+          
+            color: Black;
+            text-align: left
+
+        }
+        .clsTr {
+            height: 60px;
+        }
+        .clsTdButton{
+        align-items: center;
+        }
+        #ImgLogo {
+            width: 433px;
+            height: 34px;
+        }
+        .auto-style2 {
+            align-items: center;
+            width: 244px;
+        }
+        .auto-style3 {
+            width: 550px;
+        }
+        .auto-style4 {
+            height: 27px;
+            width: 69px;
+        }
+        .auto-style5 {
+            width: 550px;
+            height: 27px;
+        }
+        .auto-style6 {
+            height: 41px;
+            width: 69px;
+        }
+        .auto-style7 {
+            width: 550px;
+            height: 41px;
+        }
+        #marqueeObject {
+            width: 383px;
+            height: 88px;
+        }
+        #spanProcess {
+            width: 386px;
+        }
+        .auto-style8 {
+            width: 69px;
+        }
+        #divHint
+        {
+        	position:relative;
+            background-color: #FFFFE1;
+            color:#6B6B6B;
+            
+            visibility:hidden; 
+        	z-index:2;
+            height: 191px;
+            width: 403px;
+            top: -214px;
+            left: 80px;
+           
+            
+        }
+    
+         
+    </style>
+<script type='text/javascript'>
+    var result = 0;
+    var lastResult = 0;
+    function NeverNotify(para)
+    {
+          if(para.checked){
+             //选中checkbox要做的操作
+             window.external.SetLogInfoSwitch(false);
+           }else{
+             
+              window.external.SetLogInfoSwitch(true);
+           }
+       }
+       function ShowHint(para) {
+					 var bIE5 = false;
+					
+					 var ua = navigator.userAgent.toLowerCase();
+					 if(ua.match(/msie ([\d])/)[1] < 6) {
+							bIE5 = true;
+					 }
+           if (para == true && bIE5) {
+
+
+               window.external.ShowProcessDescription();
+               document.getElementById("divHint").style.display = "";
+               //document.getElementById("divHint").style.left = window.event.x;
+               //document.getElementById("divHint").style.top = window.event.y;
+           }
+           else {
+               
+               document.getElementById("divHint").style.display = "none";
+           }
+           
+       }
+    /*
+  	function SetMarquessScroll(ElementId,Scroll)
+  	{
+  		var foo=document.getElementById(ElementId);
+  		
+  		if(Scroll == "true")
+  		{
+  			foo.start();
+  		}
+  		else
+  		{
+  			foo.scrollLeft = 0;
+  			foo.scrollTop = 0;
+  			foo.stop();
+  		}
+  	}
+  	*/
+  
+  	
+
+
+//判断协议
+ 
+    function FuncInterval() {
+
+        document.getElementById("divHint").style.display = "none";
+        document.getElementById("divHint").style.visibility = "visible";
+      result = window.external.SetLogInfo();
+        
+      if(lastResult != result)
+      {
+          lastResult = result;
+          
+          
+          switch(result)
+          {
+	    //文件传输
+            case 1:
+            {
+            	  document.getElementById("LogType").style.visibility="visible";
+                  document.getElementById("LogType").src = "res://securityterminal.exe/png/411";
+                  break;
+            }
+            //进程
+            case 2:
+            {
+            	  document.getElementById("LogType").style.visibility="visible";
+                  document.getElementById("LogType").src = "res://securityterminal.exe/png/415";
+                  break;
+            }
+
+            //文件访问控制
+            case 3:
+            {
+            	  document.getElementById("LogType").style.visibility="visible";
+                  document.getElementById("LogType").src = "res://securityterminal.exe/png/416";
+                  break;
+            }
+            //usb key
+            case 4:
+            {
+            	  document.getElementById("LogType").style.visibility="visible";
+                  document.getElementById("LogType").src = "res://securityterminal.exe/png/390";
+                  break;
+            }
+           //注册表
+  	  		  case 5:
+            {
+            	  document.getElementById("LogType").style.visibility="visible";
+                  document.getElementById("LogType").src = "res://securityterminal.exe/png/418";
+                  break;
+            }
+              default:
+              {
+              	
+                  document.getElementById("LogType").style.visibility="hidden";
+                  break;
+              }
+          }
+      }
+    
+    }
+    //window.onerror = ErrorSilent; //屏蔽错误
+    //document.getElementById("divHint").style.display = "none"; 
+    setInterval("FuncInterval()","2000");
+    /*setTimeout(
+    	function(){ 
+					setTimeout("FuncInterval()", 3000); 
+			}, 3000);*/
+  
+</script>
+</HEAD>
+<BODY ID=CLogNotifyDHTMLDlg bgcolor="rgb(195,202,217)" style="font-family:MS Shell Dlg;font-size:9; width: 627px; height: 256px;" OnContextMenu="return false" OnSelectStart="return false"
+>
+       <div id="DivImgLogo"><img src="res://securityterminal.exe/gif/#2001" id="ImgLogo"/>
+      
+       </div>
+    <table style="table-layout:fixed; width: 83%; height: 178px;">
+   
+        <tr class="clsTr" width='30%'>
+            <td  id="tdProcessIcon" class="auto-style8">
+               <div id="DivProcessIcon" height=32><img src="" id="LogType" width=32 height=32/></div>
+            </td>
+                <td class="auto-style3">
+                		<span  id="spanProcess" onmouseover="ShowHint(true)" onmouseout="ShowHint(false)">c:\windows\system32\calc.exe
+</span><img src ="res://securityterminal.exe/png/#2002"/ onclick="window.external.browse()"></img></td>
+
+        </tr>
+        <tr width='30%'>
+            <td  id="tdObject" class="auto-style6">客体</td>
+            <td class="auto-style7"><marquee  behavior="scroll" direction="up" 
+                    onmouseover=this.stop() onmouseout=this.start() id="marqueeObject" ></marquee></td> 
+        </tr>
+      
+        <tr width='30%'>
+            <td  id="tdAction" class="auto-style8">动作</td>
+            <td class="auto-style3"><span  class="clsAction" id="SpanActionName">删除文件</span></td> 
+        </tr>
+         <tr width='30%'>
+            <td  id="tdResult" class="auto-style4">结果</td>
+            <td class="auto-style5"><span  class="clsResult" id="SpanResultName">放行</span></td> 
+        </tr>
+     </table>
+    <div style="text-align:center;">
+ <table style="width: 68%; height: 27px">
+      
+        <tr >
+            <td class="auto-style2">
+               <input type="checkbox" ID="ButtonNeverNotify" onclick="NeverNotify(this)" >下次不再提示</input>
+            </td>
+            <td class="clsTdButton">
+               <button STYLE="WIDTH:100" ID="ButtonCancel"  >关闭</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+     <div  id="divHint">我在这呢</div>   
+ 
+   
+ 
+
+</BODY>
+</HTML>

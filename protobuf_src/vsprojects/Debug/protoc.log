@@ -1,0 +1,23 @@
+﻿Build started 2016/5/20 11:30:44.
+     1>Project "E:\dev_materials\protobuf-2.5.0\vsprojects\protoc.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\dev_programs\vs2013\VC\bin\CL.exe /c /I../src /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\main.cc
+         main.cc
+     1>Project "E:\dev_materials\protobuf-2.5.0\vsprojects\protoc.vcxproj" (1) is building "E:\dev_materials\protobuf-2.5.0\vsprojects\libprotobuf.vcxproj" (2:3) on node 3 (GetResolvedLinkLibs target(s)).
+     2>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>Done Building Project "E:\dev_materials\protobuf-2.5.0\vsprojects\libprotobuf.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Project "E:\dev_materials\protobuf-2.5.0\vsprojects\protoc.vcxproj" (1) is building "E:\dev_materials\protobuf-2.5.0\vsprojects\libprotoc.vcxproj" (3:3) on node 1 (GetResolvedLinkLibs target(s)).
+     3>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     3>Done Building Project "E:\dev_materials\protobuf-2.5.0\vsprojects\libprotoc.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         D:\dev_programs\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\protoc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\protoc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\protoc.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         "E:\dev_materials\protobuf-2.5.0\vsprojects\Debug\libprotobuf.lib"
+         "E:\dev_materials\protobuf-2.5.0\vsprojects\Debug\libprotoc.lib"
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         protoc.vcxproj -> E:\dev_materials\protobuf-2.5.0\vsprojects\Debug\protoc.exe
+     1>Done Building Project "E:\dev_materials\protobuf-2.5.0\vsprojects\protoc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.62

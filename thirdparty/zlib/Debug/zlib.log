@@ -1,0 +1,119 @@
+﻿生成启动时间为 2017/1/13 9:15:12。
+     1>项目“E:\html_maker\thirdparty\zlib\zlib.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\zlib.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\zlib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\dev_programs\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c gzclose.c gzlib.c gzread.c gzwrite.c infback.c inffast.c inflate.c inftrees.c minigzip.c trees.c uncompr.c zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         minigzip.c
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(275): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(276): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(278): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(290): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(299) : 参见“unlink”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(311): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(320): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(327): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(335): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(299) : 参见“unlink”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(358): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(394): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(314) : 参见“setmode”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(394): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(723) : 参见“fileno”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(395): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(314) : 参见“setmode”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(397): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(723) : 参见“fileno”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(401): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(723) : 参见“fileno”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(407): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(314) : 参见“setmode”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(422): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\html_maker\thirdparty\zlib\minigzip.c(427): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(723) : 参见“fileno”的声明
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+     1>e:\html_maker\thirdparty\zlib\gzwrite.c(80): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(318) : 参见“write”的声明
+     1>e:\html_maker\thirdparty\zlib\gzwrite.c(81): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(157) : 参见“strerror”的声明
+     1>e:\html_maker\thirdparty\zlib\gzwrite.c(333): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>e:\html_maker\thirdparty\zlib\gzwrite.c(528): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(302) : 参见“close”的声明
+         gzread.c
+     1>e:\html_maker\thirdparty\zlib\gzread.c(31): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(313) : 参见“read”的声明
+     1>e:\html_maker\thirdparty\zlib\gzread.c(37): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(157) : 参见“strerror”的声明
+     1>e:\html_maker\thirdparty\zlib\gzread.c(650): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(302) : 参见“close”的声明
+         gzlib.c
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(173): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(312) : 参见“open”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(184): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(310) : 参见“lseek”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(268): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(310) : 参见“lseek”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(309): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(310) : 参见“lseek”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(404): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\io.h(310) : 参见“lseek”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(514): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(515): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\html_maker\thirdparty\zlib\gzlib.c(516): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\dev_programs\vs2010\vc\include\string.h(110) : 参见“strcat”的声明
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         正在生成代码...
+       Lib:
+         D:\dev_programs\vs2010\VC\bin\Lib.exe /OUT:"E:\html_maker\Debug\zlib.lib" /NOLOGO Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\minigzip.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         zlib.vcxproj -> E:\html_maker\Debug\zlib.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\zlib.unsuccessfulbuild”。
+         正在对“Debug\zlib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\html_maker\thirdparty\zlib\zlib.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.82

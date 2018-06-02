@@ -1,0 +1,135 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>主窗口</title>
+
+
+
+   
+<script type="text/javascript">
+
+
+
+function disableContextMenu()
+{
+	document.oncontextmenu = function()
+	{
+		if( event.srcElement.tagName == "TEXTAREA")
+		{
+			return true;
+		}
+		else if (event.srcElement.tagName == "INPUT" )
+		{
+			event.cancelBubble = true;
+			event.returnValue = false;
+		}
+		else
+		{
+			event.cancelBubble = true;
+			event.returnValue = false;
+		
+			return false;
+		}
+	};
+}
+
+function disableAccelerator()
+{
+	document.onkeydown = function()
+	{
+		if (((event.ctrlKey) && ((event.keyCode==78)||(event.keyCode==82)))|| 
+			(event.keyCode==116) ||
+			(event.srcElement.tagName != "INPUT" && event.srcElement.tagName != "TEXTAREA" && event.keyCode==8) ||
+			(event.srcElement.readOnly && event.keyCode==8) ||
+			(event.altKey && (event.keyCode==37 || event.keyCode==39)))
+		{
+			event.keyCode = 0;
+			event.returnValue = false;
+		}
+	};
+}
+ 
+// 一个简化函数
+function o(id)
+{
+	return document.getElementById(id);
+}
+
+function getClientWidth()
+{
+	var width = 0;
+	if( typeof( window.innerWidth ) == 'number' ) 
+	{
+		//Non-IE
+		width = window.innerWidth;
+	} 
+	else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) 
+	{
+		//IE 6+ in 'standards compliant mode'
+		width = document.documentElement.clientWidth;
+	} 
+	else if( document.body && ( document.body.clientWidth || document.body.clientHeight )) 
+	{
+		//IE 4 compatible
+		width = document.body.clientWidth;
+	}
+	
+	return width;
+}
+
+function getClientHeight()
+{
+	var height = 0;
+	if( typeof( window.innerWidth ) == 'number' ) 
+	{
+		//Non-IE
+		height = window.innerHeight;
+	} 
+	else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) 
+	{
+		//IE 6+ in 'standards compliant mode'
+		height = document.documentElement.clientHeight;
+	} 
+	else if( document.body && ( document.body.clientWidth || document.body.clientHeight )) 
+	{
+		//IE 4 compatible
+		height = document.body.clientHeight;
+	}
+	
+	return height;
+}
+
+function trim(str)
+{ 
+	//删除左右两端的空格
+	return str.replace(/(^\s*)|(\s*$)/g, "");
+}
+
+function ltrim(str)
+{ 
+	//删除左边的空格
+	return str.replace(/(^\s*)/g,"");
+}
+
+function rtrim(str)
+{ 
+	//删除右边的空格
+	return str.replace(/(\s*$)/g,"");
+}
+//切换登录面板
+
+
+
+ disableContextMenu();
+ disableAccelerator();
+
+  
+
+
+</script>
+</head>
+<body>
+	
+</body>
+</html>

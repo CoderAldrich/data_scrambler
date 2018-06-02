@@ -1,0 +1,93 @@
+ package data_scrabmle;
+ 
+ //protoc -I=.\ --cpp_out=.\ .\data_scramble.pro
+ 
+  enum scramble_mode {	
+  FRAME_WEB_PAGE_SCRAMBLE = 0; 
+  CONTENT_WEB_PAGE_SCRAMBLE = 1; 
+  CONTENT_WEB_PAGE_HILIGHT = 2; 
+  }
+
+//  enum client_request {	
+// 	REQUEST_SCRAMBLE_CONFIG = 0; 
+//	RESPONSE_SCRABLED_DATA = 1; 
+//  }; 
+
+ message frame_scramble
+ { 
+    required string    url = 1;  
+    required string    links_xpath = 2; 
+    required string    next_xpath = 3; 
+ }
+
+message field_scramble
+{ 
+	required string    name = 1;  
+    required string    xpath = 2; 
+}
+
+message content_scramble
+{ 
+	required string    url = 2; 
+    repeated field_scramble fields = 3; 
+}
+
+message scramble_command
+{ 
+	required scramble_mode mode = 1 [default = FRAME_WEB_PAGE_SCRAMBLE]; 
+	optional frame_scramble frame = 2; 
+    optional content_scramble content = 3; 
+}
+
+ message frame_output
+ { 
+	required string    url = 1; 
+    required string    next_link = 2; 
+    repeated string    link = 3; 
+ }
+
+ message field_additions
+ { 
+    repeated string    addition = 1; 
+ }
+ 
+message field_output
+{ 
+	required string name = 1;  
+    required string output = 2; 
+    repeated string additions = 3; 
+}
+
+message content_output
+ { 
+	required string    url = 1; 
+    repeated field_output content = 2; 
+ }
+
+message scramble_response
+{ 
+	required scramble_mode mode = 1 [default = FRAME_WEB_PAGE_SCRAMBLE]; 
+	optional frame_output frame = 2; 
+    optional content_output content = 3; 
+}
+
+message html_element_action
+{
+	required string     id = 1; 
+	required string     action = 2; 
+	required string     xpath = 3; 
+	required string     param = 4; 
+	required string     url = 5; 
+	optional string     input = 6; 
+}
+
+message html_element_action_response
+{ 
+	required string     id = 1; 
+    repeated string     response = 2; 
+}
+
+message html_element_action_request
+{ 
+	required string     request = 1; 
+}

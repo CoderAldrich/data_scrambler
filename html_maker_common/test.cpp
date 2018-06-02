@@ -1,0 +1,10 @@
+#include "common_func.h"
+#pragma warning(push)
+#pragma warning(disable:4995)
+#include <vector>
+#pragma warning(pop)
+#include <mshtml.h>
+#include <mshtmhst.h>
+#include <comutil.h>
+#include <comdef.h>
+#include <comdefsp.h>

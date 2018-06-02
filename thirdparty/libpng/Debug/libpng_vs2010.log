@@ -1,0 +1,50 @@
+﻿生成启动时间为 2012-1-22 15:31:06。
+     1>项目“D:\AntiArp\CrashRpt\thirdparty\libpng\libpng_vs2010.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libpng.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\develope_programs\vs2010\VC\bin\CL.exe /c /ID:\AntiArp\CrashRpt\thirdparty\zlib /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /wd4267 /wd4996 /analyze- /errorReport:prompt png.c pngerror.c pnggccrd.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtrans.c pngvcrd.c pngwio.c pngwrite.c pngwtran.c pngwutil.c
+         png.c
+         pngerror.c
+         pnggccrd.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+       Lib:
+         E:\develope_programs\vs2010\VC\bin\Lib.exe /OUT:"D:\AntiArp\CrashRpt\\thirdparty\lib\libpngd.lib" /NOLOGO Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pnggccrd.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtrans.obj
+         Debug\pngvcrd.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         libpng_vs2010.vcxproj -> D:\AntiArp\CrashRpt\\thirdparty\lib\libpngd.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libpng.unsuccessfulbuild”。
+         正在对“Debug\libpng.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\AntiArp\CrashRpt\thirdparty\libpng\libpng_vs2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.71

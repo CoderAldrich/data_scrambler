@@ -1,0 +1,15 @@
+﻿Build started 2016/5/20 11:26:48.
+     1>Project "E:\dev_materials\protobuf-2.5.0\gtest\msvc\gtest_main.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\dev_programs\vs2013\VC\bin\CL.exe /c /I.. /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D _VARIADIC_MAX=10 /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"protobuf/Debug\gtest_main\\" /Fd"protobuf/Debug\gtest_main\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gtest_main.cc
+         gtest_main.cc
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(E:\dev_materials\protobuf-2.5.0\gtest\msvc\protobuf/Debug\gtest_main.lib) does not match the Library's OutputFile property value (E:\dev_materials\protobuf-2.5.0\gtest\msvc\protobuf\Debug\gtest_maind.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(gtest_main) does not match the Library's OutputFile property value (gtest_maind). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\dev_programs\vs2013\VC\bin\Lib.exe /OUT:"protobuf/Debug\gtest_maind.lib" /NOLOGO protobuf/Debug\gtest_main\gtest_main.obj
+         gtest_main.vcxproj -> E:\dev_materials\protobuf-2.5.0\gtest\msvc\protobuf/Debug\gtest_main.lib
+     1>Done Building Project "E:\dev_materials\protobuf-2.5.0\gtest\msvc\gtest_main.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92
