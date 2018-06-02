@@ -42,12 +42,13 @@ tinyxml                    copyright (c) 2000-2006 Lee Thomason (www.grinningliz
 wtl                        Copyright (C) Microsoft Corporation. All rights reserved.
 
 Protocol Buffers           Google's data interchange formatCopyright 2008 Google Inc. All rights reserved.
-                           http://code.google.com/p/protobuf/                   google.
+                           http://code.google.com/p/protobuf/ 
 
 ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPing Zhang, Qun Liu 
                            NLP open source license v1.0
 
 Contact:
+
     WeiXin:      jianzhi_ai
     
     WeiXin:      AIChangeLife 
@@ -61,6 +62,7 @@ Contact:
     I like to get some job.:) 
 	
 Third party LICENSE:
+
 CrashRpt:
 
 Copyright (c) 2003, Michael Carruth
