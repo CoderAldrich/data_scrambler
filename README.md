@@ -47,7 +47,7 @@ ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPi
 
 ## Contact:
 
-    `WeiXin:      jianzhi_ai`
+    WeiXin:      jianzhi_ai
     
     WeiXin:      AIChangeLife 
     
