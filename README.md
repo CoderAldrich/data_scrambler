@@ -1,10 +1,17 @@
 # data_scrambler
 scramble data from the web page.
+platform is windows, visual studio 2008-2015
+
+Build:
+1. git clone https://github.com/codereba/data_scrambler
+2. open data_scrambler\scrambler directory
+3. open data_scrambler.sln by visual studio 2008.
+4. F5 or click Build->Build menu item.
 
 Source code license is The GNU General Public License v3.0
-If use these code to commercial software, that need to get my permition.
 
-And I want to get some work for coding, do you need I help?
+If use the source code for commerial software but can not open source, you need to get the copyright permission.
+(email: simple_ai@outlook.com)
 
 Thanks:
 
@@ -43,8 +50,11 @@ ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPi
 Contact:
     WeiXin:      jianzhi_ai
     WeiXin:      AIChangeLife 
-	QQ group:    601169305
+    QQ group:    601169305
     QQ:          2146651351
+    Email:       simple_ai@outlook.com
+    
+    I like to get some job.:) 
 	
 Third party LICENSE:
 CrashRpt:
