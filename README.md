@@ -49,9 +49,13 @@ ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPi
 
 Contact:
     WeiXin:      jianzhi_ai
+    
     WeiXin:      AIChangeLife 
+    
     QQ group:    601169305
+    
     QQ:          2146651351
+    
     Email:       simple_ai@outlook.com
     
     I like to get some job.:) 
