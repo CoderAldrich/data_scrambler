@@ -2,7 +2,7 @@
 scramble data from the web page.
 platform is windows, visual studio 2008-2015
 
-Build:
+<h2>Build:</h2>
 1. git clone https://github.com/codereba/data_scrambler
 2. open data_scrambler\scrambler directory
 3. open data_scrambler.sln by visual studio 2008.
@@ -13,7 +13,7 @@ Source code license is The GNU General Public License v3.0
 If use the source code for commerial software but can not open source, you need to get the copyright permission.
 (email: simple_ai@outlook.com)
 
-Thanks:
+<h2>Thanks:</h2>
 
 Used software(Not open source):
 
@@ -47,7 +47,7 @@ Protocol Buffers           Google's data interchange formatCopyright 2008 Google
 ictclas                    Copyright?2002-2005 Zhong Ke Yuan Ji Suan Suo：HuaPing Zhang, Qun Liu 
                            NLP open source license v1.0
 
-Contact:
+<h2>Contact:</h2>
 
     WeiXin:      jianzhi_ai
     
@@ -61,7 +61,7 @@ Contact:
     
     I like to get some job.:) 
 	
-Third party LICENSE:
+<h2>Third party LICENSE:</h2>
 
 CrashRpt:
 
